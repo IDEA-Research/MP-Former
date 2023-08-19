@@ -13,6 +13,9 @@ The following command is for no noise and all-layer MP training setting.
 bash run_50ep_no_noise_all_ly.sh
 ```
 ## Eval
+You can set "weights" to the path of the checkpoint.
 ```shell
 bash eval.sh
 ```
+## Model
+This [checkpoint](https://github.com/IDEA-Research/MP-Former/releases/download/checkpoint/model_final.pth) is the 12-epoch checkpoint. You are expected to have AP: 40.15 if you evaluate it.
