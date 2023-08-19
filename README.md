@@ -18,4 +18,4 @@ You can set "weights" to the path of the checkpoint.
 bash eval.sh
 ```
 ## Model
-This [checkpoint](https://github.com/IDEA-Research/MP-Former/releases/download/checkpoint/model_final.pth) is the 12-epoch checkpoint. You are expected to have AP: 40.15 if you evaluate it.
+This [checkpoint](https://github.com/IDEA-Research/MP-Former/releases/download/checkpoint/model_final.pth) is the 12-epoch checkpoint (last row in Table 7 of the paper). You are expected to have AP: 40.15 if you evaluate it.
