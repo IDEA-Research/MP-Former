@@ -8,9 +8,13 @@ This is the official implementation of the paper "[MP-Former: Mask-Piloted Trans
 The installation is exactly same as [Mask2Former](https://github.com/facebookresearch/Mask2Former)
 
 ## Train
-The following command is for no noise and all-layer MP training setting.
+The following command is for no noise and all-layer MP training setting for instance segmentation.
 ```shell
 bash run_50ep_no_noise_all_ly.sh
+```
+The following command is for no noise and all-layer MP training setting for panoptic segmentation.
+```shell
+bash run_50ep_no_noise_all_ly_panoptic.sh
 ```
 ## Eval
 You can set "weights" to the path of the checkpoint.
